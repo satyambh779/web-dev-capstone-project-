@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWorld Travels</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">WanderWorld</div>
+    <nav>
+        <ul>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#itinerary">Itinerary</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Explore The World With Us</h1>
+        <p>Your journey to breathtaking destinations starts here.</p>
+        <a href="#packages" class="btn">View Packages</a>
+    </div>
+</section>
+
+<main>
+
+<!-- PACKAGES SECTION -->
+<section id="packages" class="packages">
+    <h2 class="section-title">Popular Tour Packages</h2>
+
+    <div class="package-grid">
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" alt="Beach Tour">
+            <h3>Maldives Getaway</h3>
+            <p>5 Days • Resort Stay • Island Tour</p>
+            <button class="btn-small">Book Now</button>
+        </article>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" alt="Mountain Tour">
+            <h3>Swiss Alps Adventure</h3>
+            <p>7 Days • Snow Activities • Scenic Train Ride</p>
+            <button class="btn-small">Book Now</button>
+        </article>
+
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="City Tour">
+            <h3>Paris City Experience</h3>
+            <p>4 Days • Eiffel Tower • City Tour</p>
+            <button class="btn-small">Book Now</button>
+        </article>
+    </div>
+</section>
+
+<!-- ITINERARY -->
+<section id="itinerary" class="itinerary">
+    <h2 class="section-title">Sample 3-Day Itinerary</h2>
+
+    <ul class="itinerary-list">
+        <li><strong>Day 1:</strong> Arrival, welcome dinner, and city walk.</li>
+        <li><strong>Day 2:</strong> Guided sightseeing tour and local shopping.</li>
+        <li><strong>Day 3:</strong> Beach relaxation and departure.</li>
+    </ul>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="reviews">
+    <h2 class="section-title">What Our Travelers Say</h2>
+
+    <div class="review-container">
+        <article class="review">
+            <p>“Amazing service and beautiful destinations. Highly recommended!”</p>
+            <h4>— Priya Sharma</h4>
+        </article>
+
+        <article class="review">
+            <p>“Great hospitality and smooth travel arrangements. Loved it!”</p>
+            <h4>— Rohan Mehta</h4>
+        </article>
+    </div>
+</section>
+
+<!-- CONTACT FORM -->
+<section id="contact" class="contact">
+    <h2 class="section-title">Inquiry Form</h2>
+
+    <form class="contact-form">
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Destination of Interest</label>
+        <input type="text" placeholder="e.g., Maldives">
+
+        <label>Message</label>
+        <textarea rows="4" placeholder="Your message"></textarea>
+
+        <button type="submit" class="btn">Submit Inquiry</button>
+    </form>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 WanderWorld Travel Agency • All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
 
